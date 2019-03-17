@@ -1,5 +1,11 @@
 body {
-        background-color: orange !important;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    color: #fff;
+    background-color: orange !important;
+    background-size: 2000% 2000%;
 }
 .post {
     position: relative;
@@ -9,7 +15,7 @@ body {
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
     margin: 10px 10px 10px 20px;
     float:left;
-    border-radius: 15px;
+    border-radius: 10px;
     flex-wrap: wrap;
     width: 45%;
 }
@@ -56,13 +62,13 @@ body {
     float: right;
     cursor: pointer;
     font-size: 18px;
-    margin-right: 0 !important;
-    padding-right: 0 !important;
+    margin-right: 0;
+    padding-right: 0;
     padding-bottom: 10px;
     font-size: 30px;
 }
 .post-desc{
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
     display: -webkit-box;
   max-width: 96%;
   height: 55px;
@@ -75,15 +81,7 @@ body {
     
 }
 
-body {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    margin: 0 !important;
-    color: #fff;
-    background-color: orange;
-    background-size: 2000% 2000%;
-}
+
 .allPostsContainer {
     height: 100%;
     width: 100%;
@@ -103,13 +101,20 @@ body {
 #yesno {
     text-align: center;
 }
-.yess,.noo {
+.yess{
     width: 30%;
-    padding: 5px;
-    margin: 0px 9px 9px;
+    padding:  0px 0px 0px 50px;
+    margin: 0px 0px 9px 50px;
+    float: left;
+}
+.noo {
+    width: 30%;
+    padding: 0px 20px 0px 0px;
+    margin: 0px 50px 9px 0px;
+    float: right;
 }
 .modal-content {
-        margin: 20% auto;
+        margin: 30% auto;
 }
 
 @media only screen and (max-width : 1000px )
@@ -118,14 +123,6 @@ body {
         font-size: 17px;
     }
 }
-/*
-@media only screen and (max-width: 880px) {
-    .post-title{
-        font-size: 15px;
-    }
-   
-}
-*/
 @media only screen and (max-width: 700px) {
     
     .post {
@@ -140,15 +137,6 @@ body {
         .post-title{
         font-size: 16px;}
     }
-
-
-
-
-
-
-
-
-
 #ntmmbr {
     margin: 0px;
 }
@@ -164,10 +152,10 @@ label {
     font-size: 17px;
 }
 .h5,h5 {
-   font-family: 'Abel' !important;
+   font-family: 'Abel';
     font-style: normal;
-    font-weight: 1000 !important;
-    font-size: 27px !important;
+    font-weight: 1000;
+    font-size: 27px ;
 }
 
 #bot {
@@ -180,7 +168,7 @@ label {
     font-size: 17px;
 }
 .modal-header {
-        border-bottom: 3px solid #d2d2d2 !important;
+        border-bottom: 3px solid #d2d2d2;
         margin: 0px 15px;
 }
 .modal-dialog {
