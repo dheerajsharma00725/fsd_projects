@@ -61,9 +61,9 @@ input {
     font-family: sans-serif;
     font-style: normal;
     width: 115px;
-     color: black;
+    color: black;
     background-color:#e1b12c;
-    border-radius: 4px;
+    
 }
 .modal-header {
         border-bottom: 3px solid #d2d2d2;
