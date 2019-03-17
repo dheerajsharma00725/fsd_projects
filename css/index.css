@@ -5,7 +5,7 @@ body{
    background-position: center center;
    background-size: cover;
    margin: 0 !important;
-   background-size: 100% cover!important;
+   background-size: 100% cover;
    overflow:hidden;
    display: block;
     padding: 0px;
@@ -42,31 +42,31 @@ label {
     font-size: 17px;
 }
 .h5,h5 {
-   font-family: 'Abel' !important;
+   font-family: 'Abel';
     font-style: normal;
-    font-weight: 1000 !important;
-    font-size: 27px !important;
+    font-weight: 1000;
+    font-size: 27px;
 }
 #exampleInputPost1 {
-    background-color: #f1f1f1 !important;
+    background-color: #f1f1f1;
     resize: none;
 }
 input {
-    background-color: #f1f1f1 !important;
+    background-color: #f1f1f1;
 }
-#Cpost,#Spost {
+#closePost,#openPost {
     padding: 10px;
     margin: 7px;
     font-weight: 600;
-    font-family: 'Josefin Sans';
+    font-family: sans-serif;
     font-style: normal;
-    width: 110px;
+    width: 115px;
      color: black;
-    background-color:#fbc531;
-    border-radius: 6px;
+    background-color:#e1b12c;
+    border-radius: 4px;
 }
 .modal-header {
-        border-bottom: 3px solid #d2d2d2 !important;
+        border-bottom: 3px solid #d2d2d2;
         margin: 0px 15px;
 }
 .modal-title{

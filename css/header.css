@@ -4,31 +4,28 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     float: right;
     color: white;
     background-color: blue;
-    padding: 10px;
+    padding: 8px 30px;
     margin: 13px 3px;
-    font-family: 'Josefin Sans';
+    font-family: sans-serif;
     font-style: normal;
-    border-radius: 6px;
+    
 }
-#bar {
-    display: none;
-}
+
 #logo {
     text-decoration: none;
     font-family: 'satisfy';
     font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
+    font-size: 60px;
     color :blue;
 }
 .header {
-    padding: 13px;
+    padding: 10px;
 }
 #logo2 {
-    font-family: 'Cookie';
+    font-family: 'Marck Script', cursive;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5px;
 }
 @media only screen and (max-width: 400px) {
